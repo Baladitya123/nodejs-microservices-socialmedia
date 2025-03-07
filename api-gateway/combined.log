@@ -1,0 +1,333 @@
+{"level":"info","message":"api gate way running on the port 3000","service":"api-gate-way-service","timestamp":"2025-02-10T10:36:16.304Z"}
+{"level":"info","message":"user service running on the url http://localhost:3001","service":"api-gate-way-service","timestamp":"2025-02-10T10:36:16.311Z"}
+{"level":"info","message":"redis client url redis://localhost:6379","service":"api-gate-way-service","timestamp":"2025-02-10T10:36:16.312Z"}
+{"level":"info","message":"api gate way running on the port 3000","service":"api-gate-way-service","timestamp":"2025-02-10T10:36:21.246Z"}
+{"level":"info","message":"user service running on the url http://localhost:3001","service":"api-gate-way-service","timestamp":"2025-02-10T10:36:21.251Z"}
+{"level":"info","message":"redis client url redis://localhost:6379","service":"api-gate-way-service","timestamp":"2025-02-10T10:36:21.252Z"}
+{"level":"info","message":"api gate way running on the port 3000","service":"api-gate-way-service","timestamp":"2025-02-10T10:44:02.466Z"}
+{"level":"info","message":"user service running on the url http://localhost:3001","service":"api-gate-way-service","timestamp":"2025-02-10T10:44:02.473Z"}
+{"level":"info","message":"redis client url redis://localhost:6379","service":"api-gate-way-service","timestamp":"2025-02-10T10:44:02.474Z"}
+{"level":"info","message":"received POST request to /v1/auth/register","service":"api-gate-way-service","timestamp":"2025-02-10T10:51:56.102Z"}
+{"level":"info","message":"request body [object Object]","service":"api-gate-way-service","timestamp":"2025-02-10T10:51:56.105Z"}
+{"level":"info","message":"response received from user servcie : 500","service":"api-gate-way-service","timestamp":"2025-02-10T10:51:56.164Z"}
+{"level":"info","message":"received POST request to /v1/auth/register","service":"api-gate-way-service","timestamp":"2025-02-10T10:56:36.329Z"}
+{"level":"info","message":"request body [object Object]","service":"api-gate-way-service","timestamp":"2025-02-10T10:56:36.330Z"}
+{"level":"info","message":"response received from user servcie : 500","service":"api-gate-way-service","timestamp":"2025-02-10T10:56:36.347Z"}
+{"level":"info","message":"received POST request to /v1/auth/register","service":"api-gate-way-service","timestamp":"2025-02-10T10:59:39.755Z"}
+{"level":"info","message":"request body [object Object]","service":"api-gate-way-service","timestamp":"2025-02-10T10:59:39.756Z"}
+{"level":"info","message":"response received from user servcie : 500","service":"api-gate-way-service","timestamp":"2025-02-10T10:59:39.797Z"}
+{"level":"info","message":"received POST request to /v1/auth/register","service":"api-gate-way-service","timestamp":"2025-02-10T11:34:27.162Z"}
+{"level":"info","message":"request body [object Object]","service":"api-gate-way-service","timestamp":"2025-02-10T11:34:27.163Z"}
+{"level":"info","message":"response received from user servcie : 201","service":"api-gate-way-service","timestamp":"2025-02-10T11:34:27.420Z"}
+{"level":"info","message":"api gate way running on the port 3000","service":"api-gate-way-service","timestamp":"2025-02-10T11:36:20.320Z"}
+{"level":"info","message":"user service running on the url http://localhost:3001","service":"api-gate-way-service","timestamp":"2025-02-10T11:36:20.326Z"}
+{"level":"info","message":"redis client url redis://localhost:6379","service":"api-gate-way-service","timestamp":"2025-02-10T11:36:20.327Z"}
+{"level":"info","message":"received POST request to /v1/auth/register","service":"api-gate-way-service","timestamp":"2025-02-10T11:38:23.823Z"}
+{"level":"info","message":"request body [object Object]","service":"api-gate-way-service","timestamp":"2025-02-10T11:38:23.824Z"}
+{"level":"info","message":"response received from user servcie : 201","service":"api-gate-way-service","timestamp":"2025-02-10T11:38:24.405Z"}
+{"level":"info","message":"api gate way running on the port 3000","service":"api-gate-way-service","timestamp":"2025-02-24T03:34:39.788Z"}
+{"level":"info","message":"user service running on the url http://localhost:3001","service":"api-gate-way-service","timestamp":"2025-02-24T03:34:39.796Z"}
+{"level":"info","message":"redis client url redis://localhost:6379","service":"api-gate-way-service","timestamp":"2025-02-24T03:34:39.797Z"}
+{"level":"info","message":"received POST request to /v1/auth/register","service":"api-gate-way-service","timestamp":"2025-02-24T03:37:53.414Z"}
+{"level":"info","message":"request body [object Object]","service":"api-gate-way-service","timestamp":"2025-02-24T03:37:53.415Z"}
+{"level":"info","message":"response received from user servcie : 201","service":"api-gate-way-service","timestamp":"2025-02-24T03:37:54.320Z"}
+{"level":"info","message":"received POST request to /v1/auth/register","service":"api-gate-way-service","timestamp":"2025-02-24T03:37:58.121Z"}
+{"level":"info","message":"request body [object Object]","service":"api-gate-way-service","timestamp":"2025-02-24T03:37:58.122Z"}
+{"level":"info","message":"response received from user servcie : 400","service":"api-gate-way-service","timestamp":"2025-02-24T03:37:58.307Z"}
+{"level":"info","message":"received POST request to /v1/auth/login","service":"api-gate-way-service","timestamp":"2025-02-24T03:58:29.775Z"}
+{"level":"info","message":"request body [object Object]","service":"api-gate-way-service","timestamp":"2025-02-24T03:58:29.777Z"}
+{"level":"info","message":"response received from user servcie : 404","service":"api-gate-way-service","timestamp":"2025-02-24T03:58:29.840Z"}
+{"level":"info","message":"received POST request to /v1/auth/login","service":"api-gate-way-service","timestamp":"2025-02-24T04:00:35.186Z"}
+{"level":"info","message":"request body [object Object]","service":"api-gate-way-service","timestamp":"2025-02-24T04:00:35.186Z"}
+{"level":"info","message":"response received from user servcie : 404","service":"api-gate-way-service","timestamp":"2025-02-24T04:00:35.199Z"}
+{"level":"info","message":"received GET request to /v1/auth/login","service":"api-gate-way-service","timestamp":"2025-02-24T04:01:52.712Z"}
+{"level":"info","message":"request body [object Object]","service":"api-gate-way-service","timestamp":"2025-02-24T04:01:52.713Z"}
+{"level":"info","message":"response received from user servcie : 404","service":"api-gate-way-service","timestamp":"2025-02-24T04:01:52.725Z"}
+{"level":"info","message":"received POST request to /v1/auth/login","service":"api-gate-way-service","timestamp":"2025-02-24T04:01:59.268Z"}
+{"level":"info","message":"request body [object Object]","service":"api-gate-way-service","timestamp":"2025-02-24T04:01:59.270Z"}
+{"level":"info","message":"response received from user servcie : 404","service":"api-gate-way-service","timestamp":"2025-02-24T04:01:59.280Z"}
+{"level":"info","message":"received POST request to /v1/auth/login","service":"api-gate-way-service","timestamp":"2025-02-24T04:02:38.764Z"}
+{"level":"info","message":"request body [object Object]","service":"api-gate-way-service","timestamp":"2025-02-24T04:02:38.765Z"}
+{"level":"info","message":"response received from user servcie : 500","service":"api-gate-way-service","timestamp":"2025-02-24T04:02:38.923Z"}
+{"level":"info","message":"received POST request to /v1/auth/login","service":"api-gate-way-service","timestamp":"2025-02-24T04:05:30.735Z"}
+{"level":"info","message":"request body [object Object]","service":"api-gate-way-service","timestamp":"2025-02-24T04:05:30.737Z"}
+{"level":"info","message":"response received from user servcie : 500","service":"api-gate-way-service","timestamp":"2025-02-24T04:05:30.876Z"}
+{"level":"info","message":"received POST request to /v1/auth/login","service":"api-gate-way-service","timestamp":"2025-02-24T04:06:17.053Z"}
+{"level":"info","message":"request body [object Object]","service":"api-gate-way-service","timestamp":"2025-02-24T04:06:17.054Z"}
+{"level":"info","message":"response received from user servcie : 500","service":"api-gate-way-service","timestamp":"2025-02-24T04:06:17.135Z"}
+{"level":"info","message":"received POST request to /v1/auth/login","service":"api-gate-way-service","timestamp":"2025-02-24T04:08:48.936Z"}
+{"level":"info","message":"request body [object Object]","service":"api-gate-way-service","timestamp":"2025-02-24T04:08:48.937Z"}
+{"level":"info","message":"response received from user servcie : 400","service":"api-gate-way-service","timestamp":"2025-02-24T04:08:49.168Z"}
+{"level":"info","message":"received POST request to /v1/auth/login","service":"api-gate-way-service","timestamp":"2025-02-24T04:11:57.259Z"}
+{"level":"info","message":"request body [object Object]","service":"api-gate-way-service","timestamp":"2025-02-24T04:11:57.259Z"}
+{"level":"info","message":"response received from user servcie : 200","service":"api-gate-way-service","timestamp":"2025-02-24T04:11:57.883Z"}
+{"level":"info","message":"received POST request to /v1/auth/login","service":"api-gate-way-service","timestamp":"2025-02-24T04:14:03.226Z"}
+{"level":"info","message":"request body [object Object]","service":"api-gate-way-service","timestamp":"2025-02-24T04:14:03.227Z"}
+{"level":"info","message":"response received from user servcie : 400","service":"api-gate-way-service","timestamp":"2025-02-24T04:14:03.390Z"}
+{"level":"info","message":"received POST request to /v1/auth/login","service":"api-gate-way-service","timestamp":"2025-02-24T04:14:54.887Z"}
+{"level":"info","message":"request body [object Object]","service":"api-gate-way-service","timestamp":"2025-02-24T04:14:54.888Z"}
+{"level":"info","message":"response received from user servcie : 200","service":"api-gate-way-service","timestamp":"2025-02-24T04:14:55.776Z"}
+{"level":"info","message":"received POST request to /v1/auth/register","service":"api-gate-way-service","timestamp":"2025-02-24T04:16:49.864Z"}
+{"level":"info","message":"request body [object Object]","service":"api-gate-way-service","timestamp":"2025-02-24T04:16:49.865Z"}
+{"level":"info","message":"response received from user servcie : 201","service":"api-gate-way-service","timestamp":"2025-02-24T04:16:50.545Z"}
+{"level":"info","message":"received POST request to /v1/auth/login","service":"api-gate-way-service","timestamp":"2025-02-24T04:17:24.258Z"}
+{"level":"info","message":"request body [object Object]","service":"api-gate-way-service","timestamp":"2025-02-24T04:17:24.259Z"}
+{"level":"info","message":"response received from user servcie : 200","service":"api-gate-way-service","timestamp":"2025-02-24T04:17:24.719Z"}
+{"level":"info","message":"api gate way running on the port 3000","service":"api-gate-way-service","timestamp":"2025-02-24T09:39:42.846Z"}
+{"level":"info","message":"user service running on the url http://localhost:3001","service":"api-gate-way-service","timestamp":"2025-02-24T09:39:42.852Z"}
+{"level":"info","message":"post service running on the url http://localhost:3002","service":"api-gate-way-service","timestamp":"2025-02-24T09:39:42.853Z"}
+{"level":"info","message":"redis client url redis://localhost:6379","service":"api-gate-way-service","timestamp":"2025-02-24T09:39:42.854Z"}
+{"level":"info","message":"received POST request to /v1/auth/login","service":"api-gate-way-service","timestamp":"2025-02-24T09:41:31.926Z"}
+{"level":"info","message":"request body [object Object]","service":"api-gate-way-service","timestamp":"2025-02-24T09:41:31.929Z"}
+{"level":"error","message":"proxy error : ","service":"api-gate-way-service","timestamp":"2025-02-24T09:41:31.971Z"}
+{"level":"info","message":"received POST request to /v1/auth/login","service":"api-gate-way-service","timestamp":"2025-02-24T09:43:35.622Z"}
+{"level":"info","message":"request body [object Object]","service":"api-gate-way-service","timestamp":"2025-02-24T09:43:35.623Z"}
+{"level":"info","message":"response received from user servcie : 200","service":"api-gate-way-service","timestamp":"2025-02-24T09:43:36.094Z"}
+{"level":"error","message":"SyntaxError: Expected property name or '}' in JSON at position 7\n    at JSON.parse (<anonymous>)\n    at parse (C:\\Users\\ASUS\\OneDrive\\Desktop\\social-media-microservices\\api-gateway\\node_modules\\body-parser\\lib\\types\\json.js:92:19)\n    at C:\\Users\\ASUS\\OneDrive\\Desktop\\social-media-microservices\\api-gateway\\node_modules\\body-parser\\lib\\read.js:128:18\n    at AsyncResource.runInAsyncScope (node:async_hooks:206:9)\n    at invokeCallback (C:\\Users\\ASUS\\OneDrive\\Desktop\\social-media-microservices\\api-gateway\\node_modules\\raw-body\\index.js:238:16)\n    at done (C:\\Users\\ASUS\\OneDrive\\Desktop\\social-media-microservices\\api-gateway\\node_modules\\raw-body\\index.js:227:7)\n    at IncomingMessage.onEnd (C:\\Users\\ASUS\\OneDrive\\Desktop\\social-media-microservices\\api-gateway\\node_modules\\raw-body\\index.js:287:7)\n    at IncomingMessage.emit (node:events:519:28)\n    at endReadableNT (node:internal/streams/readable:1696:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)","service":"api-gate-way-service","timestamp":"2025-02-24T09:44:35.327Z"}
+{"level":"info","message":"received GET request to /v1/posts/create-post","service":"api-gate-way-service","timestamp":"2025-02-24T09:48:59.883Z"}
+{"level":"info","message":"request body [object Object]","service":"api-gate-way-service","timestamp":"2025-02-24T09:48:59.884Z"}
+{"level":"info","message":"response received from post servcie : 404","service":"api-gate-way-service","timestamp":"2025-02-24T09:48:59.963Z"}
+{"level":"info","message":"received POST request to /v1/posts/create-post","service":"api-gate-way-service","timestamp":"2025-02-24T09:49:46.117Z"}
+{"level":"info","message":"request body [object Object]","service":"api-gate-way-service","timestamp":"2025-02-24T09:49:46.118Z"}
+{"level":"info","message":"response received from post servcie : 404","service":"api-gate-way-service","timestamp":"2025-02-24T09:49:46.142Z"}
+{"level":"info","message":"received POST request to /v1/posts/create-post","service":"api-gate-way-service","timestamp":"2025-02-24T09:50:48.515Z"}
+{"level":"info","message":"request body [object Object]","service":"api-gate-way-service","timestamp":"2025-02-24T09:50:48.516Z"}
+{"level":"info","message":"response received from post servcie : 404","service":"api-gate-way-service","timestamp":"2025-02-24T09:50:48.633Z"}
+{"level":"info","message":"received POST request to /v1/posts/create-post","service":"api-gate-way-service","timestamp":"2025-02-24T09:53:39.640Z"}
+{"level":"info","message":"request body [object Object]","service":"api-gate-way-service","timestamp":"2025-02-24T09:53:39.641Z"}
+{"level":"info","message":"response received from post servcie : 404","service":"api-gate-way-service","timestamp":"2025-02-24T09:53:39.704Z"}
+{"level":"info","message":"received POST request to /v1/posts/create-post","service":"api-gate-way-service","timestamp":"2025-02-24T09:54:25.894Z"}
+{"level":"info","message":"request body [object Object]","service":"api-gate-way-service","timestamp":"2025-02-24T09:54:25.895Z"}
+{"level":"info","message":"response received from post servcie : 200","service":"api-gate-way-service","timestamp":"2025-02-24T09:54:26.107Z"}
+{"level":"info","message":"api gate way running on the port 3000","service":"api-gate-way-service","timestamp":"2025-02-24T11:20:22.674Z"}
+{"level":"info","message":"user service running on the url http://localhost:3001","service":"api-gate-way-service","timestamp":"2025-02-24T11:20:22.679Z"}
+{"level":"info","message":"post service running on the url http://localhost:3002","service":"api-gate-way-service","timestamp":"2025-02-24T11:20:22.679Z"}
+{"level":"info","message":"redis client url redis://localhost:6379","service":"api-gate-way-service","timestamp":"2025-02-24T11:20:22.680Z"}
+{"level":"info","message":"received POST request to /v1/auth/login","service":"api-gate-way-service","timestamp":"2025-02-24T11:20:33.446Z"}
+{"level":"info","message":"request body [object Object]","service":"api-gate-way-service","timestamp":"2025-02-24T11:20:33.449Z"}
+{"level":"info","message":"response received from user servcie : 200","service":"api-gate-way-service","timestamp":"2025-02-24T11:20:33.789Z"}
+{"level":"info","message":"received POST request to /v1/posts/create-post","service":"api-gate-way-service","timestamp":"2025-02-24T11:21:04.164Z"}
+{"level":"info","message":"request body [object Object]","service":"api-gate-way-service","timestamp":"2025-02-24T11:21:04.165Z"}
+{"level":"info","message":"response received from post servcie : 200","service":"api-gate-way-service","timestamp":"2025-02-24T11:21:04.373Z"}
+{"level":"info","message":"received POST request to /v1/posts/create-post","service":"api-gate-way-service","timestamp":"2025-02-24T11:21:06.402Z"}
+{"level":"info","message":"request body [object Object]","service":"api-gate-way-service","timestamp":"2025-02-24T11:21:06.404Z"}
+{"level":"info","message":"response received from post servcie : 200","service":"api-gate-way-service","timestamp":"2025-02-24T11:21:06.502Z"}
+{"level":"info","message":"received POST request to /v1/posts/create-post","service":"api-gate-way-service","timestamp":"2025-02-24T11:21:08.160Z"}
+{"level":"info","message":"request body [object Object]","service":"api-gate-way-service","timestamp":"2025-02-24T11:21:08.161Z"}
+{"level":"info","message":"response received from post servcie : 200","service":"api-gate-way-service","timestamp":"2025-02-24T11:21:08.230Z"}
+{"level":"info","message":"received POST request to /v1/posts/create-post","service":"api-gate-way-service","timestamp":"2025-02-24T11:21:09.428Z"}
+{"level":"info","message":"request body [object Object]","service":"api-gate-way-service","timestamp":"2025-02-24T11:21:09.429Z"}
+{"level":"info","message":"response received from post servcie : 200","service":"api-gate-way-service","timestamp":"2025-02-24T11:21:09.497Z"}
+{"level":"info","message":"received POST request to /v1/posts/create-post","service":"api-gate-way-service","timestamp":"2025-02-24T11:21:10.522Z"}
+{"level":"info","message":"request body [object Object]","service":"api-gate-way-service","timestamp":"2025-02-24T11:21:10.523Z"}
+{"level":"info","message":"response received from post servcie : 200","service":"api-gate-way-service","timestamp":"2025-02-24T11:21:10.592Z"}
+{"level":"info","message":"received POST request to /v1/posts/create-post","service":"api-gate-way-service","timestamp":"2025-02-24T11:21:11.698Z"}
+{"level":"info","message":"request body [object Object]","service":"api-gate-way-service","timestamp":"2025-02-24T11:21:11.698Z"}
+{"level":"info","message":"response received from post servcie : 200","service":"api-gate-way-service","timestamp":"2025-02-24T11:21:11.764Z"}
+{"level":"info","message":"received GET request to /v1/posts/get-posts","service":"api-gate-way-service","timestamp":"2025-02-24T11:22:33.459Z"}
+{"level":"info","message":"request body [object Object]","service":"api-gate-way-service","timestamp":"2025-02-24T11:22:33.460Z"}
+{"level":"info","message":"response received from post servcie : 404","service":"api-gate-way-service","timestamp":"2025-02-24T11:22:33.473Z"}
+{"level":"info","message":"received GET request to /v1/posts/get-posts","service":"api-gate-way-service","timestamp":"2025-02-24T11:24:57.843Z"}
+{"level":"info","message":"request body [object Object]","service":"api-gate-way-service","timestamp":"2025-02-24T11:24:57.844Z"}
+{"level":"info","message":"response received from post servcie : 404","service":"api-gate-way-service","timestamp":"2025-02-24T11:24:57.853Z"}
+{"level":"info","message":"received GET request to /v1/posts/get-posts","service":"api-gate-way-service","timestamp":"2025-02-24T11:27:05.009Z"}
+{"level":"info","message":"request body [object Object]","service":"api-gate-way-service","timestamp":"2025-02-24T11:27:05.010Z"}
+{"level":"info","message":"response received from post servcie : 404","service":"api-gate-way-service","timestamp":"2025-02-24T11:27:05.080Z"}
+{"level":"info","message":"received GET request to /v1/posts/get-posts","service":"api-gate-way-service","timestamp":"2025-02-24T11:30:27.455Z"}
+{"level":"info","message":"request body [object Object]","service":"api-gate-way-service","timestamp":"2025-02-24T11:30:27.456Z"}
+{"level":"info","message":"response received from post servcie : 404","service":"api-gate-way-service","timestamp":"2025-02-24T11:30:27.498Z"}
+{"level":"info","message":"received GET request to /v1/posts/get-posts","service":"api-gate-way-service","timestamp":"2025-02-24T11:42:55.478Z"}
+{"level":"info","message":"request body [object Object]","service":"api-gate-way-service","timestamp":"2025-02-24T11:42:55.479Z"}
+{"level":"info","message":"response received from post servcie : 404","service":"api-gate-way-service","timestamp":"2025-02-24T11:42:55.499Z"}
+{"level":"info","message":"received GET request to /v1/posts/get-posts","service":"api-gate-way-service","timestamp":"2025-02-24T11:47:27.792Z"}
+{"level":"info","message":"request body [object Object]","service":"api-gate-way-service","timestamp":"2025-02-24T11:47:27.795Z"}
+{"level":"info","message":"response received from post servcie : 404","service":"api-gate-way-service","timestamp":"2025-02-24T11:47:27.897Z"}
+{"level":"info","message":"received POST request to /v1/posts/create-post","service":"api-gate-way-service","timestamp":"2025-02-24T11:48:31.722Z"}
+{"level":"info","message":"request body [object Object]","service":"api-gate-way-service","timestamp":"2025-02-24T11:48:31.723Z"}
+{"level":"info","message":"response received from post servcie : 200","service":"api-gate-way-service","timestamp":"2025-02-24T11:48:31.884Z"}
+{"level":"info","message":"received GET request to /v1/posts/get-posts","service":"api-gate-way-service","timestamp":"2025-02-24T11:49:22.344Z"}
+{"level":"info","message":"request body [object Object]","service":"api-gate-way-service","timestamp":"2025-02-24T11:49:22.345Z"}
+{"level":"info","message":"response received from post servcie : 404","service":"api-gate-way-service","timestamp":"2025-02-24T11:49:22.384Z"}
+{"level":"info","message":"api gate way running on the port 3000","service":"api-gate-way-service","timestamp":"2025-02-24T11:50:36.397Z"}
+{"level":"info","message":"user service running on the url http://localhost:3001","service":"api-gate-way-service","timestamp":"2025-02-24T11:50:36.406Z"}
+{"level":"info","message":"post service running on the url http://localhost:3002","service":"api-gate-way-service","timestamp":"2025-02-24T11:50:36.407Z"}
+{"level":"info","message":"redis client url redis://localhost:6379","service":"api-gate-way-service","timestamp":"2025-02-24T11:50:36.408Z"}
+{"level":"info","message":"received GET request to /v1/posts/get-posts","service":"api-gate-way-service","timestamp":"2025-02-24T11:50:39.979Z"}
+{"level":"info","message":"request body [object Object]","service":"api-gate-way-service","timestamp":"2025-02-24T11:50:39.980Z"}
+{"level":"info","message":"response received from post servcie : 404","service":"api-gate-way-service","timestamp":"2025-02-24T11:50:40.084Z"}
+{"level":"info","message":"received GET request to /v1/posts/get-posts","service":"api-gate-way-service","timestamp":"2025-02-24T11:51:33.535Z"}
+{"level":"info","message":"request body [object Object]","service":"api-gate-way-service","timestamp":"2025-02-24T11:51:33.536Z"}
+{"level":"info","message":"response received from post servcie : 404","service":"api-gate-way-service","timestamp":"2025-02-24T11:51:33.605Z"}
+{"level":"info","message":"api gate way running on the port 3000","service":"api-gate-way-service","timestamp":"2025-02-24T11:53:19.663Z"}
+{"level":"info","message":"user service running on the url http://localhost:3001","service":"api-gate-way-service","timestamp":"2025-02-24T11:53:19.670Z"}
+{"level":"info","message":"post service running on the url http://localhost:3002","service":"api-gate-way-service","timestamp":"2025-02-24T11:53:19.671Z"}
+{"level":"info","message":"redis client url redis://localhost:6379","service":"api-gate-way-service","timestamp":"2025-02-24T11:53:19.672Z"}
+{"level":"info","message":"received GET request to /v1/posts/get-posts","service":"api-gate-way-service","timestamp":"2025-02-24T11:53:25.649Z"}
+{"level":"info","message":"request body [object Object]","service":"api-gate-way-service","timestamp":"2025-02-24T11:53:25.650Z"}
+{"level":"info","message":"response received from post servcie : 404","service":"api-gate-way-service","timestamp":"2025-02-24T11:53:25.761Z"}
+{"level":"info","message":"received GET request to /v1/posts/get-posts","service":"api-gate-way-service","timestamp":"2025-02-24T11:58:47.225Z"}
+{"level":"info","message":"request body [object Object]","service":"api-gate-way-service","timestamp":"2025-02-24T11:58:47.229Z"}
+{"level":"info","message":"response received from post servcie : 404","service":"api-gate-way-service","timestamp":"2025-02-24T11:58:47.297Z"}
+{"level":"info","message":"received GET request to /v1/posts/get-posts","service":"api-gate-way-service","timestamp":"2025-02-24T12:02:21.476Z"}
+{"level":"info","message":"request body [object Object]","service":"api-gate-way-service","timestamp":"2025-02-24T12:02:21.477Z"}
+{"level":"info","message":"response received from post servcie : 404","service":"api-gate-way-service","timestamp":"2025-02-24T12:02:21.572Z"}
+{"level":"info","message":"received GET request to /v1/posts/get-posts","service":"api-gate-way-service","timestamp":"2025-02-24T12:04:41.692Z"}
+{"level":"info","message":"request body [object Object]","service":"api-gate-way-service","timestamp":"2025-02-24T12:04:41.694Z"}
+{"level":"info","message":"response received from post servcie : 404","service":"api-gate-way-service","timestamp":"2025-02-24T12:04:41.847Z"}
+{"level":"info","message":"received POST request to /v1/posts/get-posts","service":"api-gate-way-service","timestamp":"2025-02-24T12:05:37.798Z"}
+{"level":"info","message":"request body [object Object]","service":"api-gate-way-service","timestamp":"2025-02-24T12:05:37.799Z"}
+{"level":"info","message":"response received from post servcie : 404","service":"api-gate-way-service","timestamp":"2025-02-24T12:05:37.815Z"}
+{"level":"info","message":"received POST request to /v1/posts/create-post","service":"api-gate-way-service","timestamp":"2025-02-24T12:06:00.089Z"}
+{"level":"info","message":"request body [object Object]","service":"api-gate-way-service","timestamp":"2025-02-24T12:06:00.090Z"}
+{"level":"info","message":"response received from post servcie : 200","service":"api-gate-way-service","timestamp":"2025-02-24T12:06:00.264Z"}
+{"level":"info","message":"received POST request to /v1/posts/get-posts","service":"api-gate-way-service","timestamp":"2025-02-24T12:07:22.823Z"}
+{"level":"info","message":"request body [object Object]","service":"api-gate-way-service","timestamp":"2025-02-24T12:07:22.840Z"}
+{"level":"info","message":"response received from post servcie : 404","service":"api-gate-way-service","timestamp":"2025-02-24T12:07:22.867Z"}
+{"level":"info","message":"received POST request to /v1/posts/get-posts","service":"api-gate-way-service","timestamp":"2025-02-24T12:07:48.581Z"}
+{"level":"info","message":"request body [object Object]","service":"api-gate-way-service","timestamp":"2025-02-24T12:07:48.582Z"}
+{"level":"info","message":"response received from post servcie : 404","service":"api-gate-way-service","timestamp":"2025-02-24T12:07:48.597Z"}
+{"level":"info","message":"received POST request to /v1/posts/get-posts","service":"api-gate-way-service","timestamp":"2025-02-24T12:13:49.952Z"}
+{"level":"info","message":"request body [object Object]","service":"api-gate-way-service","timestamp":"2025-02-24T12:13:49.952Z"}
+{"level":"info","message":"response received from post servcie : 404","service":"api-gate-way-service","timestamp":"2025-02-24T12:13:49.981Z"}
+{"level":"info","message":"received GET request to /v1/posts/get-posts","service":"api-gate-way-service","timestamp":"2025-02-24T12:13:55.700Z"}
+{"level":"info","message":"request body [object Object]","service":"api-gate-way-service","timestamp":"2025-02-24T12:13:55.700Z"}
+{"level":"info","message":"response received from post servcie : 200","service":"api-gate-way-service","timestamp":"2025-02-24T12:13:55.841Z"}
+{"level":"info","message":"api gate way running on the port 3000","service":"api-gate-way-service","timestamp":"2025-03-02T03:52:28.507Z"}
+{"level":"info","message":"user service running on the url http://localhost:3001","service":"api-gate-way-service","timestamp":"2025-03-02T03:52:28.515Z"}
+{"level":"info","message":"post service running on the url http://localhost:3002","service":"api-gate-way-service","timestamp":"2025-03-02T03:52:28.517Z"}
+{"level":"info","message":"redis client url redis://localhost:6379","service":"api-gate-way-service","timestamp":"2025-03-02T03:52:28.518Z"}
+{"level":"info","message":"received GET request to /v1/posts/get-posts","service":"api-gate-way-service","timestamp":"2025-03-02T03:53:19.765Z"}
+{"level":"info","message":"request body [object Object]","service":"api-gate-way-service","timestamp":"2025-03-02T03:53:19.810Z"}
+{"level":"warn","message":"invalid token","service":"api-gate-way-service","timestamp":"2025-03-02T03:53:19.841Z"}
+{"level":"info","message":"received POST request to /v1/auth/login","service":"api-gate-way-service","timestamp":"2025-03-02T03:53:29.483Z"}
+{"level":"info","message":"request body [object Object]","service":"api-gate-way-service","timestamp":"2025-03-02T03:53:29.489Z"}
+{"level":"info","message":"response received from user servcie : 200","service":"api-gate-way-service","timestamp":"2025-03-02T03:53:31.598Z"}
+{"level":"info","message":"received POST request to /v1/posts/create-post","service":"api-gate-way-service","timestamp":"2025-03-02T03:53:57.547Z"}
+{"level":"info","message":"request body [object Object]","service":"api-gate-way-service","timestamp":"2025-03-02T03:53:57.553Z"}
+{"level":"info","message":"response received from post servcie : 200","service":"api-gate-way-service","timestamp":"2025-03-02T03:53:57.813Z"}
+{"level":"info","message":"received GET request to /v1/posts/get-posts","service":"api-gate-way-service","timestamp":"2025-03-02T03:54:10.114Z"}
+{"level":"info","message":"request body [object Object]","service":"api-gate-way-service","timestamp":"2025-03-02T03:54:10.115Z"}
+{"level":"info","message":"response received from post servcie : 200","service":"api-gate-way-service","timestamp":"2025-03-02T03:54:10.758Z"}
+{"level":"info","message":"received GET request to /v1/posts/get-posts","service":"api-gate-way-service","timestamp":"2025-03-02T03:54:14.403Z"}
+{"level":"info","message":"request body [object Object]","service":"api-gate-way-service","timestamp":"2025-03-02T03:54:14.404Z"}
+{"level":"info","message":"response received from post servcie : 200","service":"api-gate-way-service","timestamp":"2025-03-02T03:54:14.426Z"}
+{"level":"info","message":"received GET request to /v1/posts/get-posts","service":"api-gate-way-service","timestamp":"2025-03-02T03:54:23.239Z"}
+{"level":"info","message":"request body [object Object]","service":"api-gate-way-service","timestamp":"2025-03-02T03:54:23.241Z"}
+{"level":"info","message":"response received from post servcie : 200","service":"api-gate-way-service","timestamp":"2025-03-02T03:54:23.268Z"}
+{"level":"info","message":"received GET request to /v1/posts/get-posts","service":"api-gate-way-service","timestamp":"2025-03-02T03:54:26.605Z"}
+{"level":"info","message":"request body [object Object]","service":"api-gate-way-service","timestamp":"2025-03-02T03:54:26.606Z"}
+{"level":"info","message":"response received from post servcie : 200","service":"api-gate-way-service","timestamp":"2025-03-02T03:54:26.623Z"}
+{"level":"info","message":"received GET request to /v1/posts/get-posts","service":"api-gate-way-service","timestamp":"2025-03-02T04:04:25.373Z"}
+{"level":"info","message":"request body [object Object]","service":"api-gate-way-service","timestamp":"2025-03-02T04:04:25.374Z"}
+{"level":"info","message":"response received from post servcie : 200","service":"api-gate-way-service","timestamp":"2025-03-02T04:04:25.492Z"}
+{"level":"info","message":"received GET request to /v1/posts/get-posts","service":"api-gate-way-service","timestamp":"2025-03-02T04:04:31.022Z"}
+{"level":"info","message":"request body [object Object]","service":"api-gate-way-service","timestamp":"2025-03-02T04:04:31.023Z"}
+{"level":"info","message":"response received from post servcie : 200","service":"api-gate-way-service","timestamp":"2025-03-02T04:04:31.037Z"}
+{"level":"info","message":"received GET request to /v1/posts/get-posts","service":"api-gate-way-service","timestamp":"2025-03-02T04:04:47.744Z"}
+{"level":"info","message":"request body [object Object]","service":"api-gate-way-service","timestamp":"2025-03-02T04:04:47.745Z"}
+{"level":"info","message":"response received from post servcie : 200","service":"api-gate-way-service","timestamp":"2025-03-02T04:04:47.822Z"}
+{"level":"info","message":"received GET request to /v1/posts/get-posts","service":"api-gate-way-service","timestamp":"2025-03-02T04:04:50.576Z"}
+{"level":"info","message":"request body [object Object]","service":"api-gate-way-service","timestamp":"2025-03-02T04:04:50.577Z"}
+{"level":"info","message":"response received from post servcie : 200","service":"api-gate-way-service","timestamp":"2025-03-02T04:04:50.602Z"}
+{"level":"info","message":"received POST request to /v1/posts/create-post","service":"api-gate-way-service","timestamp":"2025-03-02T04:05:06.422Z"}
+{"level":"info","message":"request body [object Object]","service":"api-gate-way-service","timestamp":"2025-03-02T04:05:06.422Z"}
+{"level":"info","message":"response received from post servcie : 200","service":"api-gate-way-service","timestamp":"2025-03-02T04:05:06.565Z"}
+{"level":"info","message":"received GET request to /v1/posts/get-posts","service":"api-gate-way-service","timestamp":"2025-03-02T04:05:12.209Z"}
+{"level":"info","message":"request body [object Object]","service":"api-gate-way-service","timestamp":"2025-03-02T04:05:12.210Z"}
+{"level":"info","message":"response received from post servcie : 200","service":"api-gate-way-service","timestamp":"2025-03-02T04:05:12.359Z"}
+{"level":"info","message":"received POST request to /v1/auth/login","service":"api-gate-way-service","timestamp":"2025-03-02T04:18:53.575Z"}
+{"level":"info","message":"request body [object Object]","service":"api-gate-way-service","timestamp":"2025-03-02T04:18:53.576Z"}
+{"level":"info","message":"response received from user servcie : 200","service":"api-gate-way-service","timestamp":"2025-03-02T04:18:53.828Z"}
+{"level":"info","message":"received GET request to /v1/posts/67c3d8f2579a85c6cd1d792b","service":"api-gate-way-service","timestamp":"2025-03-02T04:19:59.273Z"}
+{"level":"info","message":"request body [object Object]","service":"api-gate-way-service","timestamp":"2025-03-02T04:19:59.274Z"}
+{"level":"info","message":"response received from post servcie : 200","service":"api-gate-way-service","timestamp":"2025-03-02T04:19:59.476Z"}
+{"level":"info","message":"received GET request to /v1/posts/67c3d8f2579a85c6cd1d792b","service":"api-gate-way-service","timestamp":"2025-03-02T04:20:03.199Z"}
+{"level":"info","message":"request body [object Object]","service":"api-gate-way-service","timestamp":"2025-03-02T04:20:03.222Z"}
+{"level":"info","message":"response received from post servcie : 404","service":"api-gate-way-service","timestamp":"2025-03-02T04:20:03.264Z"}
+{"level":"info","message":"received GET request to /v1/posts/67c3d8f2579a85c6cd1d792b","service":"api-gate-way-service","timestamp":"2025-03-02T04:20:08.391Z"}
+{"level":"info","message":"request body [object Object]","service":"api-gate-way-service","timestamp":"2025-03-02T04:20:08.391Z"}
+{"level":"info","message":"response received from post servcie : 404","service":"api-gate-way-service","timestamp":"2025-03-02T04:20:08.409Z"}
+{"level":"info","message":"received GET request to /v1/posts/67c3d8f2579a85c6cd1d792b","service":"api-gate-way-service","timestamp":"2025-03-02T04:20:59.486Z"}
+{"level":"info","message":"request body [object Object]","service":"api-gate-way-service","timestamp":"2025-03-02T04:20:59.487Z"}
+{"level":"info","message":"response received from post servcie : 404","service":"api-gate-way-service","timestamp":"2025-03-02T04:20:59.550Z"}
+{"level":"info","message":"received GET request to /v1/posts/67c3d8f2579a85c6cd1d792b","service":"api-gate-way-service","timestamp":"2025-03-02T04:21:02.060Z"}
+{"level":"info","message":"request body [object Object]","service":"api-gate-way-service","timestamp":"2025-03-02T04:21:02.061Z"}
+{"level":"info","message":"response received from post servcie : 404","service":"api-gate-way-service","timestamp":"2025-03-02T04:21:02.084Z"}
+{"level":"info","message":"received GET request to /v1/posts/67c3d8f2579a85c6cd1d792b","service":"api-gate-way-service","timestamp":"2025-03-02T04:21:32.991Z"}
+{"level":"info","message":"request body [object Object]","service":"api-gate-way-service","timestamp":"2025-03-02T04:21:32.992Z"}
+{"level":"info","message":"response received from post servcie : 404","service":"api-gate-way-service","timestamp":"2025-03-02T04:21:33.011Z"}
+{"level":"info","message":"received GET request to /v1/posts/67c3d8f2579a85c6cd1d792b","service":"api-gate-way-service","timestamp":"2025-03-02T04:22:25.601Z"}
+{"level":"info","message":"request body [object Object]","service":"api-gate-way-service","timestamp":"2025-03-02T04:22:25.602Z"}
+{"level":"info","message":"response received from post servcie : 200","service":"api-gate-way-service","timestamp":"2025-03-02T04:22:25.646Z"}
+{"level":"info","message":"received GET request to /v1/posts/67c3d8f2579a85c6cd1d792b","service":"api-gate-way-service","timestamp":"2025-03-02T04:22:28.666Z"}
+{"level":"info","message":"request body [object Object]","service":"api-gate-way-service","timestamp":"2025-03-02T04:22:28.667Z"}
+{"level":"info","message":"response received from post servcie : 200","service":"api-gate-way-service","timestamp":"2025-03-02T04:22:28.688Z"}
+{"level":"info","message":"received GET request to /v1/posts/67c3d8f2579a85c6cd1d792b","service":"api-gate-way-service","timestamp":"2025-03-02T04:22:30.926Z"}
+{"level":"info","message":"request body [object Object]","service":"api-gate-way-service","timestamp":"2025-03-02T04:22:30.927Z"}
+{"level":"info","message":"response received from post servcie : 200","service":"api-gate-way-service","timestamp":"2025-03-02T04:22:30.948Z"}
+{"level":"info","message":"received GET request to /v1/posts/67c3d8f2579a85c6cd1d792b","service":"api-gate-way-service","timestamp":"2025-03-02T04:22:53.459Z"}
+{"level":"info","message":"request body [object Object]","service":"api-gate-way-service","timestamp":"2025-03-02T04:22:53.460Z"}
+{"level":"info","message":"response received from post servcie : 200","service":"api-gate-way-service","timestamp":"2025-03-02T04:22:53.566Z"}
+{"level":"info","message":"received GET request to /v1/posts/67c3d8f2579a85c6cd1d792b","service":"api-gate-way-service","timestamp":"2025-03-02T04:22:56.446Z"}
+{"level":"info","message":"request body [object Object]","service":"api-gate-way-service","timestamp":"2025-03-02T04:22:56.447Z"}
+{"level":"info","message":"response received from post servcie : 200","service":"api-gate-way-service","timestamp":"2025-03-02T04:22:56.465Z"}
+{"level":"info","message":"received GET request to /v1/posts/67c3d8f2579a85c6cd1d792b","service":"api-gate-way-service","timestamp":"2025-03-02T04:22:58.900Z"}
+{"level":"info","message":"request body [object Object]","service":"api-gate-way-service","timestamp":"2025-03-02T04:22:58.901Z"}
+{"level":"info","message":"response received from post servcie : 200","service":"api-gate-way-service","timestamp":"2025-03-02T04:22:58.924Z"}
+{"level":"info","message":"received GET request to /v1/posts/67c3d8f2579a85c6cd1d792b","service":"api-gate-way-service","timestamp":"2025-03-02T04:24:05.931Z"}
+{"level":"info","message":"request body [object Object]","service":"api-gate-way-service","timestamp":"2025-03-02T04:24:05.932Z"}
+{"level":"info","message":"response received from post servcie : 200","service":"api-gate-way-service","timestamp":"2025-03-02T04:24:06.006Z"}
+{"level":"info","message":"received GET request to /v1/posts/67c3d8f2579a85c6cd1d792b","service":"api-gate-way-service","timestamp":"2025-03-02T04:24:07.835Z"}
+{"level":"info","message":"request body [object Object]","service":"api-gate-way-service","timestamp":"2025-03-02T04:24:07.836Z"}
+{"level":"info","message":"response received from post servcie : 200","service":"api-gate-way-service","timestamp":"2025-03-02T04:24:07.860Z"}
+{"level":"info","message":"received POST request to /v1/auth/login","service":"api-gate-way-service","timestamp":"2025-03-02T04:37:26.058Z"}
+{"level":"info","message":"request body [object Object]","service":"api-gate-way-service","timestamp":"2025-03-02T04:37:26.065Z"}
+{"level":"info","message":"response received from user servcie : 200","service":"api-gate-way-service","timestamp":"2025-03-02T04:37:26.446Z"}
+{"level":"info","message":"received DELETE request to /v1/posts/67c3d8f2579a85c6cd1d792b","service":"api-gate-way-service","timestamp":"2025-03-02T04:38:00.420Z"}
+{"level":"info","message":"request body [object Object]","service":"api-gate-way-service","timestamp":"2025-03-02T04:38:00.421Z"}
+{"level":"info","message":"response received from post servcie : 200","service":"api-gate-way-service","timestamp":"2025-03-02T04:38:00.568Z"}
+{"level":"info","message":"received DELETE request to /v1/posts/67c3d8f2579a85c6cd1d792b","service":"api-gate-way-service","timestamp":"2025-03-02T04:38:04.007Z"}
+{"level":"info","message":"request body [object Object]","service":"api-gate-way-service","timestamp":"2025-03-02T04:38:04.008Z"}
+{"level":"info","message":"response received from post servcie : 400","service":"api-gate-way-service","timestamp":"2025-03-02T04:38:04.062Z"}
+{"level":"info","message":"received GET request to /v1/posts/67c3d8f2579a85c6cd1d792b","service":"api-gate-way-service","timestamp":"2025-03-02T04:38:20.575Z"}
+{"level":"info","message":"request body [object Object]","service":"api-gate-way-service","timestamp":"2025-03-02T04:38:20.575Z"}
+{"level":"info","message":"response received from post servcie : 400","service":"api-gate-way-service","timestamp":"2025-03-02T04:38:20.643Z"}
+{"level":"info","message":"received GET request to /v1/posts/67c3d8f2579a85c6cd1d792b","service":"api-gate-way-service","timestamp":"2025-03-02T04:38:25.247Z"}
+{"level":"info","message":"request body [object Object]","service":"api-gate-way-service","timestamp":"2025-03-02T04:38:25.249Z"}
+{"level":"info","message":"response received from post servcie : 400","service":"api-gate-way-service","timestamp":"2025-03-02T04:38:25.308Z"}
+{"level":"info","message":"received GET request to /v1/posts/67c3d8f2579a85c6cd1d792b","service":"api-gate-way-service","timestamp":"2025-03-02T04:38:57.453Z"}
+{"level":"info","message":"request body [object Object]","service":"api-gate-way-service","timestamp":"2025-03-02T04:38:57.454Z"}
+{"level":"info","message":"response received from post servcie : 400","service":"api-gate-way-service","timestamp":"2025-03-02T04:38:57.600Z"}
+{"level":"info","message":"received GET request to /v1/posts/get-posts","service":"api-gate-way-service","timestamp":"2025-03-02T04:39:03.356Z"}
+{"level":"info","message":"request body [object Object]","service":"api-gate-way-service","timestamp":"2025-03-02T04:39:03.357Z"}
+{"level":"info","message":"response received from post servcie : 200","service":"api-gate-way-service","timestamp":"2025-03-02T04:39:03.528Z"}
+{"level":"info","message":"received GET request to /v1/posts/get-posts","service":"api-gate-way-service","timestamp":"2025-03-02T04:39:06.736Z"}
+{"level":"info","message":"request body [object Object]","service":"api-gate-way-service","timestamp":"2025-03-02T04:39:06.738Z"}
+{"level":"info","message":"response received from post servcie : 200","service":"api-gate-way-service","timestamp":"2025-03-02T04:39:06.784Z"}
+{"level":"info","message":"received DELETE request to /v1/posts/67c3d8f2579a85c6cd1d792b","service":"api-gate-way-service","timestamp":"2025-03-02T04:39:12.314Z"}
+{"level":"info","message":"request body [object Object]","service":"api-gate-way-service","timestamp":"2025-03-02T04:39:12.315Z"}
+{"level":"info","message":"response received from post servcie : 400","service":"api-gate-way-service","timestamp":"2025-03-02T04:39:12.412Z"}
+{"level":"info","message":"received POST request to /v1/posts/create-post","service":"api-gate-way-service","timestamp":"2025-03-02T04:43:22.323Z"}
+{"level":"info","message":"request body [object Object]","service":"api-gate-way-service","timestamp":"2025-03-02T04:43:22.323Z"}
+{"level":"info","message":"response received from post servcie : 200","service":"api-gate-way-service","timestamp":"2025-03-02T04:43:22.475Z"}
+{"level":"info","message":"received GET request to /v1/posts/get-posts","service":"api-gate-way-service","timestamp":"2025-03-02T04:44:15.919Z"}
+{"level":"info","message":"request body [object Object]","service":"api-gate-way-service","timestamp":"2025-03-02T04:44:15.920Z"}
+{"level":"info","message":"response received from post servcie : 200","service":"api-gate-way-service","timestamp":"2025-03-02T04:44:16.085Z"}
+{"level":"info","message":"received GET request to /v1/posts/get-posts","service":"api-gate-way-service","timestamp":"2025-03-02T04:44:19.507Z"}
+{"level":"info","message":"request body [object Object]","service":"api-gate-way-service","timestamp":"2025-03-02T04:44:19.508Z"}
+{"level":"info","message":"response received from post servcie : 200","service":"api-gate-way-service","timestamp":"2025-03-02T04:44:19.525Z"}
+{"level":"info","message":"received GET request to /v1/posts/67c3e1ea4ce94ea9092bffe5","service":"api-gate-way-service","timestamp":"2025-03-02T04:44:35.526Z"}
+{"level":"info","message":"request body [object Object]","service":"api-gate-way-service","timestamp":"2025-03-02T04:44:35.527Z"}
+{"level":"info","message":"response received from post servcie : 200","service":"api-gate-way-service","timestamp":"2025-03-02T04:44:35.591Z"}
+{"level":"info","message":"received GET request to /v1/posts/67c3e1ea4ce94ea9092bffe5","service":"api-gate-way-service","timestamp":"2025-03-02T04:44:38.609Z"}
+{"level":"info","message":"request body [object Object]","service":"api-gate-way-service","timestamp":"2025-03-02T04:44:38.615Z"}
+{"level":"info","message":"response received from post servcie : 200","service":"api-gate-way-service","timestamp":"2025-03-02T04:44:38.628Z"}
+{"level":"info","message":"received DELETE request to /v1/posts/67c3e1ea4ce94ea9092bffe5","service":"api-gate-way-service","timestamp":"2025-03-02T04:44:48.200Z"}
+{"level":"info","message":"request body [object Object]","service":"api-gate-way-service","timestamp":"2025-03-02T04:44:48.201Z"}
+{"level":"info","message":"response received from post servcie : 200","service":"api-gate-way-service","timestamp":"2025-03-02T04:44:48.270Z"}
+{"level":"info","message":"received DELETE request to /v1/posts/67c3e1ea4ce94ea9092bffe5","service":"api-gate-way-service","timestamp":"2025-03-02T04:44:52.193Z"}
+{"level":"info","message":"request body [object Object]","service":"api-gate-way-service","timestamp":"2025-03-02T04:44:52.194Z"}
+{"level":"info","message":"response received from post servcie : 400","service":"api-gate-way-service","timestamp":"2025-03-02T04:44:52.251Z"}
+{"level":"info","message":"received GET request to /v1/posts/67c3e1ea4ce94ea9092bffe5","service":"api-gate-way-service","timestamp":"2025-03-02T04:44:58.479Z"}
+{"level":"info","message":"request body [object Object]","service":"api-gate-way-service","timestamp":"2025-03-02T04:44:58.480Z"}
+{"level":"info","message":"response received from post servcie : 400","service":"api-gate-way-service","timestamp":"2025-03-02T04:44:58.607Z"}
