@@ -54,7 +54,7 @@ services:
       - RABBITMQ_URL= amqp://rabbitmq:5672
 
   redis:
-    image: redia:alpine
+    image: redis:alpine
     ports:
       - "6379:6379"
   rabbitmq:
