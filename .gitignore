@@ -1,9 +1,3 @@
-# ignore node_modules for all services
-node_modules/
-logs/
-
-# ignore os-generated files 
-.DS_Store
-
-# ignore Docker files (if applicable)
-docker-compose.override.yml
+node_modules
+.env
+*.log

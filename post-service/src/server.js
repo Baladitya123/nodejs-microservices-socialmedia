@@ -9,6 +9,7 @@ const postRoutes = require('./routes/post-routes')
 const errorHandler = require('./middilewares/errorhandler')
 const {rateLimit} = require('express-rate-limit')
 const { RedisStore}=require('rate-limit-redis')
+const { connectToRabbitMq } = require('./utils/rabbitmq')
 
 
 const app = express()
@@ -55,11 +56,22 @@ app.use('/api/posts',authenticateRequest,postRoutes)
 
 app.use(errorHandler)
 
-app.listen(PORT,()=>{
-    logger.info(`post service running on port ${PORT} `)
-})
+async function startServer(){
+    try {
+        await connectToRabbitMq()
+        app.listen(PORT,()=>{
+            logger.info(`post service running on port ${PORT} `)
+        })
+    } catch (error) {
+        logger.error('failed to connect to the server',error)
+        process.exit(1)
+    }
+}
+startServer()
+
 //unhandled promise rejection
 
 process.on('unhandledRejection',(reason,promise)=>{
     logger.error('unhandledRejection at',promise,'reason:',reason)
 })
+

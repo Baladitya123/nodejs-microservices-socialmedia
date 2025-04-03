@@ -1,0 +1,8 @@
+# use the official node:18 linux alphine as a base image
+FROM node:18-alpha
+WORKDIR /user/src/app
+COPY package*.json ./
+RUN npm ci --only=production
+COPY . . 
+EXPOSE 3003
+CMD [ "node","src/server.js" ]

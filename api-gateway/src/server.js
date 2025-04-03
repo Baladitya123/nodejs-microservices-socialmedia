@@ -17,6 +17,7 @@ const RedisClient = new Redis(process.env.REDIS_URL)
 app.use(helmet())
 app.use(cors())
 app.use(express.json())
+app.use(express.urlencoded({ extended: true })); 
 
 // rate limiting
 const ratelimitoptions = rateLimit({
@@ -45,18 +46,18 @@ app.use((req,res,next)=>{
 //proxy for the user service from api - 3000 to user - 3001 
 //                                /api/auth to /v1/auth
 const proxyOptions = {
-    proxyReqPathResolver : (req)=>{
-        return req.originalUrl.replace(/^\/v1/,"/api")
+    proxyReqPathResolver: (req) => {
+        return req.originalUrl.replace(/^\/v1/, "/api");
     },
-    proxyErrorHandler :(err, res, next)=>{
-        logger.error(`proxy error : ${err.message}`)
+    proxyErrorHandler: (err, res, next) => {
+        logger.error(`Proxy error: ${err.message}`);
         res.status(500).json({
-            success:false,
-            message:'internal server error',
+            success: false,
+            message: 'Internal server error',
             error: err.message
-        })
+        });
     }
-}
+};
 
 // adding the proxy to the user service 
 app.use('/v1/auth',proxy(process.env.USER_SERVICE_URL,{
@@ -71,25 +72,61 @@ app.use('/v1/auth',proxy(process.env.USER_SERVICE_URL,{
 
     }
 }))
+
+
 app.use('/v1/posts',validToken,proxy(process.env.POST_SERVICE_URL,{
     ...proxyOptions,
     proxyReqOptDecorator:(proxyReqOpts, srcReq)=>{
+        console.log(srcReq.headers['content-type'])
         proxyReqOpts.headers['Content-Type']= 'application/json'
         proxyReqOpts.headers['x-user-id']= srcReq.user.userId
         return proxyReqOpts
     },
     userResDecorator:(proxyRes, proxyResData, userReq, userRes)=>{
         logger.info(`response received from post servcie : ${proxyRes.statusCode}`)
-        return proxyResData
+        return proxyResData 
     }
 
+}))
+// setting up a proxy for the media service
+app.use('/v1/media',validToken,proxy(process.env.MEDIA_SERVICE_URL,{
+    ...proxyOptions,
+    proxyReqOptDecorator:(proxyReqOpts,srcReq)=>{
+        proxyReqOpts.headers['x-user-id']=srcReq.user.userId;
+        if(!srcReq.headers['content-type'].startsWith('multipart/form-data')){
+            proxyReqOpts.headers["Content-Type"]="application/json";
+        }
+        return proxyReqOpts;
+    },
+    userResDecorator:(proxyRes, proxyResData, userReq, userRes)=>{
+        logger.info(`response received from media servcie : ${proxyRes.statusCode}`)
+        return proxyResData ;
+    },
+    parseReqBody:false
+}))
+
+//setting up a proxy for the search service
+app.use('/v1/search',validToken,proxy(process.env.SEARCH_SERVICE_URL,{
+    ...proxyOptions,
+    proxyReqOptDecorator:(proxyReqOpts,srcReq)=>{
+        proxyReqOpts.headers['x-user-id']=srcReq.user.userId;
+        proxyReqOpts.headers['Content-Type']= 'application/json'
+        return proxyReqOpts;
+    },
+    userResDecorator:(proxyRes, proxyResData, userReq, userRes)=>{
+        logger.info(`response received from search servcie : ${proxyRes.statusCode}`)
+        return proxyResData ;
+    },
+    parseReqBody:false
 }))
 
 app.use(errorHandler)
 
 app.listen(PORT,()=>{
     logger.info(`api gate way running on the port ${PORT}`)
+    logger.info(`media service running on the url ${process.env.MEDIA_SERVICE_URL}`)
     logger.info(`user service running on the url ${process.env.USER_SERVICE_URL}`)
     logger.info(`post service running on the url ${process.env.POST_SERVICE_URL}`)
+    logger.info(`search service running on the url ${process.env.SEARCH_SERVICE_URL}`)
     logger.info(`redis client url ${process.env.REDIS_URL}`)
 })

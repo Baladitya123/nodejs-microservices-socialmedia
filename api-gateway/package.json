@@ -9,7 +9,6 @@
   },
   "author": "",
   "license": "ISC",
-  "description": "",
   "dependencies": {
     "cors": "^2.8.5",
     "dotenv": "^16.4.7",
@@ -23,5 +22,7 @@
     "nodemon": "^3.1.9",
     "rate-limit-redis": "^4.2.0",
     "winston": "^3.17.0"
-  }
+  },
+  "keywords": [],
+  "description": ""
 }

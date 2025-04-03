@@ -2,6 +2,7 @@ const logger = require('../utils/logger')
 const Post = require('../models/Post')
 const {validPostCreation} = require('../utils/validation')
 const { post } = require('../routes/post-routes')
+const { publishEvent } = require('../utils/rabbitmq')
 
 async function invalidatePostCache(req,input) {
     const cachedKey = `post:${input}`
@@ -32,6 +33,12 @@ const createPost = async(req,res)=>{
             mediaIds:mediaIds || []
         })
         await newlyCreatedPost.save()
+        await publishEvent('post-created',{
+            postId:newlyCreatedPost._id.toString(),
+            userId:newlyCreatedPost.user.toString(),
+            content:newlyCreatedPost.content,
+            createdAt:newlyCreatedPost.createdAt
+        })
         await invalidatePostCache(req,newlyCreatedPost._id.toString())
         logger.info('created post successfully',newlyCreatedPost)
         return res.status(200).json({
@@ -134,6 +141,12 @@ const deletePost = async(req,res)=>{
                 message:'post not found'
             })
         }
+        // publishing a event
+        await publishEvent('post-deleted',{
+            postId:deletedPost._id.toString(),
+            userId:req.user.userId,
+            mediaIds:deletedPost.mediaIds
+        })
         await invalidatePostCache(req,req.params.id)
         return res.status(200).json({
             success:true,
